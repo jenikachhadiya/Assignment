@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3B84BF</color>
+    <color name="blue_100">#E847549C</color>
+    <color name="light_blue">#9BA4D6</color>
+    <color name="pink">#DF7A9C</color>
+    <color name="facebook">#4267B2</color>
+    <color name="Twitter">#1DA1F2</color>
+    <color name="Butten">#f78da7</color>
+</resources>
