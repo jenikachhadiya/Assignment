@@ -5,11 +5,13 @@ import android.os.Parcelable
 
 data class objPass(var name :String,var email :String,var age :Int):Parcelable{
 
-    constructor(parcel: Parcel) : this(
+    constructor(parcel: Parcel) :this(
         parcel.readString().toString(),
         parcel.readString().toString(),
         parcel.readInt().toInt()
-    ) {
+    )
+    {
+
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {

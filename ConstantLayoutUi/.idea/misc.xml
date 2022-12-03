@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1435" />
+        <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1435" />
+        <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/drawable/ic_outline_remove_red_eye_24.xml" value="0.1435" />
+        <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_eight.xml" value="0.1452959028831563" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_fifth.xml" value="0.22" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_first.xml" value="0.2" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_fourth.xml" value="0.2" />
+        <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_host_actvity.xml" value="0.1452959028831563" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_second.xml" value="0.21" />
         <entry key="..\:/Android With Kotlin/AndroidWork/ConstantLayoutUi/app/src/main/res/layout/activity_seventh.xml" value="0.22" />

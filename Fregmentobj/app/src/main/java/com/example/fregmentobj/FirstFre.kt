@@ -7,16 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.fregmentobj.databinding.FragmentFirstFreBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [FirstFre.newInstance] factory method to
- * create an instance of this fragment.
- */
 class FirstFre : Fragment() {
    private lateinit var binding: FragmentFirstFreBinding
 
@@ -33,6 +23,7 @@ class FirstFre : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnButton.setOnClickListener {
+
             var name = binding.etName.text.toString().trim()
             var email = binding.etEmail.text.toString().trim()
             var age = binding.etAge.text.toString().toInt()

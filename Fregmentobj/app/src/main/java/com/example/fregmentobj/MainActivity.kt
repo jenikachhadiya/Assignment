@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
 
         var fragment = FirstFre()
+
         supportFragmentManager
             .beginTransaction()
             .add(R.id.fregment_contanar,fragment)

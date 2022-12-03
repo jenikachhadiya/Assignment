@@ -8,16 +8,6 @@ import android.view.ViewGroup
 import com.example.fregmentobj.databinding.FragmentFirstFreBinding
 import com.example.fregmentobj.databinding.FragmentSecondFreBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [SecondFre.newInstance] factory method to
- * create an instance of this fragment.
- */
 class SecondFre : Fragment() {
 
 private lateinit var binding: FragmentSecondFreBinding
@@ -34,9 +24,6 @@ private lateinit var binding: FragmentSecondFreBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-
-
         arguments?.let {
 
             /*var name = it.getString("Name")
@@ -47,9 +34,7 @@ private lateinit var binding: FragmentSecondFreBinding
 
 
             var result = it.getParcelable<objPass>("OBJ") as objPass
-
              binding.tvResult.text ="${result.name} \n ${result.email} \n${result.age}"
-
 
         }
 

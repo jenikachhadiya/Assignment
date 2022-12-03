@@ -25,7 +25,9 @@ class SecondFregment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentSecondFregmentBinding.inflate(inflater, container, false)
+        binding = FragmentSecondFregmentBinding
+            .inflate(inflater, container, false)
+
         return binding.root
     }
 

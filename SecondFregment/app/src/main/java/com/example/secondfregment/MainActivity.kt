@@ -12,7 +12,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportFragmentManager.beginTransaction().replace(R.id.Fregment_Contanier,FirstFregment()).commit()
+        //main activity to fragment
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.Fregment_Contanier,FirstFregment())
+            .commit()
 
 
     }

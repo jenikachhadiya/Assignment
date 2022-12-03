@@ -28,6 +28,7 @@ class First : AppCompatActivity() {
 
             var name = et_name.text.toString().trim()
             var email = et_email.text.toString().trim()
+
             var objec = objects(name, email)
 
 
