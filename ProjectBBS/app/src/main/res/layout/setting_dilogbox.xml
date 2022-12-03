@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SettingDilog"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/baseBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/innerBox"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/innderbox2"
+            android:layout_marginBottom="80dp"
+            app:layout_constraintBottom_toBottomOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox"
+            app:layout_constraintStart_toStartOf="@id/baseBox"
+            app:layout_constraintTop_toTopOf="@id/baseBox"
+             />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/close"
+            android:src="@drawable/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginEnd="-15dp"
+            app:layout_constraintTop_toTopOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox"/>
+
+
+        <TextView
+            android:id="@+id/leval"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btnlogin"
+            android:text="Level 1"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="-25dp"
+            app:layout_constraintTop_toTopOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox"
+            app:layout_constraintStart_toStartOf="@id/baseBox" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/music"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/green1"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_music_note_24"
+        app:layout_constraintBottom_toBottomOf="@+id/volume"
+        app:layout_constraintEnd_toStartOf="@+id/volume"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/baseBox"
+        app:layout_constraintTop_toTopOf="@+id/volume"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+            android:id="@+id/bgm"
+            android:text="BGM"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/music"
+            app:layout_constraintStart_toStartOf="@id/music"
+            app:layout_constraintEnd_toEndOf="@id/music" />
+
+
+        <TextView
+            android:id="@+id/sfx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SFX"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/volume"
+            app:layout_constraintStart_toStartOf="@id/volume"
+            app:layout_constraintTop_toBottomOf="@id/volume" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/volume"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/yellow"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_volume_down_24"
+        app:layout_constraintEnd_toEndOf="@+id/leval"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/leval"
+        app:layout_constraintTop_toBottomOf="@+id/leval" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/push"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/green1"
+            android:padding="10dp"
+            android:layout_marginEnd="56dp"
+            android:src="@drawable/ic_baseline_notifications_24"
+            app:layout_constraintBottom_toBottomOf="@+id/volume"
+            app:layout_constraintStart_toEndOf="@+id/volume"
+            app:layout_constraintTop_toTopOf="@+id/volume"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintEnd_toEndOf="@id/innerBox"/>
+
+
+        <TextView
+            android:text="Push"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/push"
+            app:layout_constraintStart_toStartOf="@id/push"
+            app:layout_constraintEnd_toEndOf="@id/push" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/btnblue"
+        android:drawableLeft="@drawable/ic_baseline_star_purple500_24"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:text="Rate"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/leval"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/leval"
+        app:layout_constraintTop_toBottomOf="@id/leval" />
+
+    <TextView
+        android:id="@+id/contect"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="15dp"
+
+        android:background="@drawable/btnlogin"
+        android:drawableLeft="@drawable/ic_baseline_contacts_24"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Contect"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/baseBox"
+        app:layout_constraintEnd_toEndOf="@id/rate"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="@id/rate"
+        app:layout_constraintTop_toBottomOf="@id/rate"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

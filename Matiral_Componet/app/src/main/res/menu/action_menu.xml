@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/G1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/login"
+            android:title="login" />
+
+        <item
+            android:id="@+id/delate"
+            android:title="Delate" />
+
+        <item
+            android:id="@+id/login1"
+            android:title="login" />
+
+        <item
+            android:id="@+id/delate1"
+            android:title="login" />
+
+
+    </group>
+
+</menu>

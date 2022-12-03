@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/quit_dilogbox"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/baseBox"
+            android:src="@drawable/base1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/innerBox"
+            android:src="@drawable/innderbox"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintStart_toStartOf="@+id/baseBox"
+            app:layout_constraintEnd_toEndOf="@+id/baseBox"
+            app:layout_constraintTop_toTopOf="@+id/baseBox"
+            app:layout_constraintBottom_toBottomOf="@+id/baseBox"
+            />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/close"
+        android:src="@drawable/close"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="-15dp"
+        app:layout_constraintTop_toTopOf="@id/baseBox"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+
+        />
+
+        <TextView
+            android:text="Quit This Game?"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btnblue"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="-40dp"
+            app:layout_constraintStart_toStartOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox"
+            app:layout_constraintTop_toTopOf="@id/baseBox"
+            app:layout_constraintBottom_toTopOf="@id/innerBox"
+            />
+
+        <TextView
+            android:id="@+id/tv_tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Are You Sure \n You Want To Quit??"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/innerBox"
+            app:layout_constraintEnd_toEndOf="@id/innerBox"
+            app:layout_constraintStart_toStartOf="@+id/innerBox"
+            app:layout_constraintTop_toTopOf="@+id/innerBox" />
+
+    <TextView
+        android:id="@+id/btn_quit"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/img"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Quit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/btn_play"
+        app:layout_constraintEnd_toStartOf="@id/btn_play"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toTopOf="@+id/btn_play"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <TextView
+            android:id="@+id/btn_play"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btnlogin"
+            android:gravity="center"
+            android:text="Play On!!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

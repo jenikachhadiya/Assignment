@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_baseline_directions_bike_24"
+            android:title="Cycleing">
+
+        </item>
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_directions_bus_24"
+            android:title="Bus">
+
+        </item>
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/ic_outline_airplane_ticket_24"
+            android:title="Plane">
+
+        </item>
+
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login" />
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Communicate"
+            android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/item7"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Rate Us" />
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+
+</menu>

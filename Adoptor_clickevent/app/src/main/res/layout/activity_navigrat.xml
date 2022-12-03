@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:gravity="center"
+
+    tools:context=".Activitys.Navigrat">
+
+    <LinearLayout
+        android:id="@+id/linear_n"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_movi"
+            android:src="@drawable/m1"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            android:layout_width="150dp"
+            android:layout_height="170dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tv_namee"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="Thor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:layout_gravity="center"
+            android:id="@+id/rb_ratee"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:progressTint="@color/golden"
+            android:rating="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tv_descc"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gry"
+            android:textAlignment="center"
+            android:text="Thor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tv_yerr"
+            android:textSize="13dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/gry"
+            android:textAlignment="center"
+            android:text="Thor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_360_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_announcement_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_star_purple500_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/drawable/ic_baseline_volume_down_24.xml" value="0.1575" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/activity_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/activity_splash_screen.xml" value="0.19010416666666666" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/item_dilogbox.xml" value="0.25" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/next_dilogbox.xml" value="0.203125" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/pause_dilogbox.xml" value="0.22" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/play_dilogbox.xml" value="0.22" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/quit_dilogbox.xml" value="0.25" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/row_home.xml" value="0.22" />
+        <entry key="..\:/Android With Kotlin/AndoidProject/ProjectBBS/app/src/main/res/layout/setting_dilogbox.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/next_dilogbox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/baseBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/base1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/innerBox"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        android:src="@drawable/innderbox2"
+        app:layout_constraintBottom_toBottomOf="@id/baseBox"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toTopOf="@+id/baseBox" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-19dp"
+        android:background="@drawable/btnblue"
+        android:gravity="center"
+        android:text="Level 1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toTopOf="@id/baseBox" />
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-10dp"
+        android:background="@drawable/close"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintTop_toTopOf="@id/baseBox"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rate"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rate"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toBottomOf="@id/tv_level" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Score : 16390"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toBottomOf="@id/rate" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="New High Score"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox"
+        app:layout_constraintTop_toBottomOf="@id/score" />
+
+    <TextView
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btnlogin2"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/baseBox"
+        app:layout_constraintEnd_toEndOf="@id/baseBox" />
+
+    <TextView
+        android:id="@+id/btn_repeat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/yellow2"
+        android:drawableRight="@drawable/ic_baseline_360_24"
+        android:gravity="center"
+        android:paddingEnd="9dp"
+        app:layout_constraintBottom_toBottomOf="@id/baseBox"
+        app:layout_constraintStart_toStartOf="@id/baseBox" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

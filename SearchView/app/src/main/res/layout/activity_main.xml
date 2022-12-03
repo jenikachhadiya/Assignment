@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+  <androidx.appcompat.widget.SearchView
+      android:id="@+id/serch_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="10dp"
+      app:queryHint="Search Hear....."
+      app:iconifiedByDefault="false"
+      android:background="@drawable/search_view_bg"/>
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rec_view"
+      android:layout_below="@id/serch_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</RelativeLayout>

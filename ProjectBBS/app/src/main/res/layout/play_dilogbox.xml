@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playDilog"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/baseBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/innerBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/innderbox"
+            app:layout_constraintBottom_toBottomOf="@+id/baseBox"
+            app:layout_constraintEnd_toEndOf="@id/baseBox"
+            app:layout_constraintStart_toStartOf="@+id/baseBox"
+            app:layout_constraintTop_toTopOf="@id/baseBox" />
+        <TextView
+            android:text="Pop all bubble in 32 \n moves!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/innerBox"
+            app:layout_constraintEnd_toEndOf="@id/innerBox"
+            app:layout_constraintTop_toBottomOf="@id/rate"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/rate"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/rate"
+            app:layout_constraintEnd_toEndOf="@+id/innerBox"
+            app:layout_constraintStart_toStartOf="@+id/innerBox"
+            app:layout_constraintTop_toTopOf="@+id/innerBox" />
+
+
+        <TextView
+            android:id="@+id/leval"
+            android:text="Leval 1"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/btnblue"
+            app:layout_constraintTop_toTopOf="@id/baseBox"
+            app:layout_constraintEnd_toEndOf="@+id/baseBox"
+            app:layout_constraintStart_toStartOf="@+id/baseBox" />
+
+        <TextView
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnlogin"
+            android:gravity="center"
+            android:text="Play!"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/baseBox"
+            app:layout_constraintEnd_toEndOf="@+id/leval"
+
+            app:layout_constraintStart_toStartOf="@+id/leval"
+
+          />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:layout_marginTop="-9dp"
+            android:layout_marginEnd="-9dp"
+            android:src="@drawable/close"
+            app:layout_constraintEnd_toEndOf="@+id/baseBox"
+            app:layout_constraintTop_toTopOf="@id/baseBox"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

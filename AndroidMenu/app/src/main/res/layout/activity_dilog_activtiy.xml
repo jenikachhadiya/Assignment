@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DilogActivtiy">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_alrtdialoge"
+            android:text="Simpal dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonCliked" />
+        <Button
+            android:id="@+id/btn_Singal_alrtdialoge"
+            android:text="singal alrat dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonCliked" />
+
+        <Button
+            android:id="@+id/btn_multi_alrtdialoge"
+            android:text="Multipal alrat dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonCliked" />
+        <Button
+            android:id="@+id/btn_custum_alrtdialoge"
+            android:text="Custom alrat dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonCliked" />
+        <LinearLayout
+
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_DMY"
+                android:hint="DD/MM/YYYY"
+                android:enabled="false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iv_calender"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_calendar_month_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_HMS"
+                android:hint="HH:MM:SS"
+                android:enabled="false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_timer_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_view"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

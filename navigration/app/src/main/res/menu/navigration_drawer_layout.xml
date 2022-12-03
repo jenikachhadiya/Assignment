@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_1">
+
+        <item
+            android:id="@+id/placeZone"
+            android:title="PalceZone"/>
+        <item
+            android:id="@+id/lunguage"
+            android:title="Lunguage"/>
+        <item
+            android:id="@+id/offerzone"
+            android:title="OfferZone"/>
+        <item
+            android:id="@+id/selling"
+            android:title="Selling"/>
+        <item
+            android:id="@+id/order"
+            android:title="Order"/>
+        <item
+            android:id="@+id/reward"
+            android:title="Reword"/>
+        <item
+            android:id="@+id/cart"
+            android:title="Cart"/>
+        <item
+            android:id="@+id/wishlist"
+            android:title="WishList"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/notification"
+            android:title="Notification"/>
+    </group>
+
+    <group android:id="@+id/group_2">
+
+        <item
+            android:id="@+id/MyActivity"
+            android:title="PalceZone"/>
+        <item
+            android:id="@+id/Reviews"
+            android:title="Lunguage"/>
+        <item
+            android:id="@+id/Question_Answers"
+            android:title="OfferZone"/>
+
+    </group>
+    <group android:id="@+id/group_3">
+
+
+
+
+    </group>
+
+
+
+</menu>

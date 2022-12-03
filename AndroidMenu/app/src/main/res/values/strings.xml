@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidMenu</string>
+    <string-array name="Lunguage">
+        <item>Java</item>
+        <item>Pythone</item>
+        <item>Kotline</item>
+        <item>PHP</item>
+        <item>Angular</item>
+        <item>Laravel</item>
+
+
+    </string-array>
+</resources>

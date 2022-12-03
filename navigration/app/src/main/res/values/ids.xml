@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="group_1" type="id">group_1</item>
+    <item name="placeZone" type="id">placeZone</item>
+</resources>

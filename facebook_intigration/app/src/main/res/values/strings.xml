@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">facebook_intigration</string>
+
+
+    <string name="facebook_app_id">5930283366981837</string>
+    <string name="fb_login_protocol_scheme">fb5930283366981837</string>
+    <string name="facebook_client_token">5017b0ac1b3691b02850be923c8a45ef</string>
+
+
+</resources>
